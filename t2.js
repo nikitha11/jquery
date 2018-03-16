@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#d").click(function(){
+        $("#d").toggleClass("red");
+    });
+     $("#di").click(function(){
+        $("#di").toggleClass("blue");
+    });
+      $("#dii").click(function(){
+        $("#dii").toggleClass("green");
+    });
+});
